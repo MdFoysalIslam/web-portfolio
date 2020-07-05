@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 h1 {
     font-size: 50px;
 }
@@ -12,4 +15,56 @@ h1 {
 }
 .half-width img{
     width: 100%;
+}
+.top-banner {
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(40deg, rgb(112, 164, 248), blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.fast-photo {
+    border-radius: 50px 50px;
+}
+
+.snd-photo {
+    border-radius: 40px 40px;
+}
+.Dream-area {
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last-part{
+    box-shadow: -1px 6px 6px 6px;
+    border-radius: 20px 20px;
+    height: 60%;
+    width: 30%;
+   background-color: rgb(207, 238, 238);
+}
+.experience-area {
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+}
+#Full-stak {
+    border-left: 20px solid greenyellow;
+    border-image: linear-gradient(180deg, greenyellow, green);
+    border-image-slice: 5;
+}
+#baby-web {
+    border-left: 20px solid blue;
+    border-image: linear-gradient(150deg, rgb(53, 118, 240), rgb(5, 5, 116));
+    border-image-slice: 5;
+}
+footer {
+    text-align: center;
 }
